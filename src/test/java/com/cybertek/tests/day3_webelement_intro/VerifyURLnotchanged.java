@@ -40,6 +40,8 @@ public class VerifyURLnotchanged {
             System.out.println("PASS");
         }else{
             System.out.println("FAIL");
+            System.out.println("expectedUrl = " + expectedUrl);
+            System.out.println("actualUrl = " + actualUrl);
         }
 
         //close the browser
