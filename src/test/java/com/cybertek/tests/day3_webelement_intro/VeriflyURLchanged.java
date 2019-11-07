@@ -7,9 +7,9 @@ import org.openqa.selenium.WebElement;
 
 public class VeriflyURLchanged {
     /**
-     * open browser
+     * open chrome
      * go to http://practice.cybertekschool.com/forgot_password Links to an external site.
-     * enter any email
+     * enter any valid email
      * click on Retrieve password
      * verify that url changed to http://practice.cybertekschool.com/email_sent
      */
@@ -28,10 +28,10 @@ public class VeriflyURLchanged {
         emailInput.sendKeys("email@gmail.com");
 
         //locate to password button
-        WebElement retrievePasswordButton = driver.findElement(By.id("form_submit"));
+         WebElement retrievePasswordButton = driver.findElement(By.id("form_submit"));
         //click button
         retrievePasswordButton.click();
-
+        //we got from test case
         String expectedUrl = "http://practice.cybertekschool.com/email_sent";
 
         String actualUrl = driver.getCurrentUrl();
