@@ -12,7 +12,8 @@ public class LinkTextAndPartialLinkText {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
 
-        //navigate to website
+        //navigate t
+        // o website
         driver.get("http://practice.cybertekschool.com/dynamic_loading");
 
 //        WebElement link3 = driver.findElement(By.linkText("Example 3: Element on page that is hidden and become visible after 5 seconds"));

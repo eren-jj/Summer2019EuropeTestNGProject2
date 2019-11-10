@@ -15,7 +15,10 @@ public class IdLocatorTest {
 
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
         //click the don't click button
-        WebElement dontClickButton = driver.findElement(By.id("disappearing_button"));
+        WebElement dontClickButton = driver.
+                findElement(
+                        By.id("disappearing_button")
+                );
         //clicking button
         dontClickButton.click();
         //close the browser
