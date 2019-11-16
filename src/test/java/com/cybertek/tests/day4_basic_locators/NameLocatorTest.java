@@ -44,7 +44,6 @@ public class NameLocatorTest {
             System.out.println("actualMessage = " + actualMessage);
 
         }
-
         //close the browser
         driver.quit();
     }
