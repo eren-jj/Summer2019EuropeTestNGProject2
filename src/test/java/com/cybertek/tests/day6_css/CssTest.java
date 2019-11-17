@@ -16,6 +16,7 @@ public class CssTest {
 
         WebElement dontClickButton = driver.findElement(By.cssSelector("[onclick='button1()']"));
 
+
         String message = dontClickButton.getText();
 
         System.out.println("message = " + message);
