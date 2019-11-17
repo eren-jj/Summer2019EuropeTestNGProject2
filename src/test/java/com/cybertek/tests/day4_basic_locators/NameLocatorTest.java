@@ -45,6 +45,7 @@ public class NameLocatorTest {
 
         }
 
+
         //close the browser
         driver.quit();
     }
