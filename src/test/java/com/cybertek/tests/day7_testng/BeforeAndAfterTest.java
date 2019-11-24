@@ -38,12 +38,12 @@ public class BeforeAndAfterTest {
     }
 
 
-    @BeforeClass
+    //@BeforeClass
     public void beforeEvertything(){
         System.out.println("BEFORE CLASS CODE");
     }
 
-    @AfterClass
+    //@AfterClass
     public void afterClass(){
         System.out.println("AFTER CLASS CODE");
         System.out.println("REPORTING");
