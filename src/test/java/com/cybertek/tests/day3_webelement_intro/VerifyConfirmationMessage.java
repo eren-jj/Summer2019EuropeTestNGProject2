@@ -59,6 +59,7 @@ public class VerifyConfirmationMessage  {
         WebElement messageElement = driver.findElement(By.name("confirmation_message"));
 
         String actualMessage = messageElement.getText();
+        System.out.println("actualMessage = " + actualMessage);
 
         if(expectedMessage.equals(actualMessage)){
             System.out.println("PASS");
